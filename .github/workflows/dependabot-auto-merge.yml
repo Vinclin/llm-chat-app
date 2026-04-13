@@ -20,7 +20,7 @@ jobs:
         id: dependabot-metadata
         uses: dependabot/fetch-metadata@v3
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.AUTO_MERGE_TOKEN }}
 
       - name: Auto-approve the PR
         run: gh pr review --approve "$PR_URL"
