@@ -23,7 +23,7 @@
     "@types/node": "25.9.3",
     "typescript": "6.0.3",
     "vitest": "4.1.11",
-    "wrangler": "4.124.x"
+    "wrangler": "4.125.x"
   },
   "scripts": {
     "cf-typegen": "wrangler types",
